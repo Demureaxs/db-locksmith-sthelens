@@ -17,7 +17,7 @@ export function DemoHome() {
         <Image
           // src='https://www.lockout247.co.uk/wp-content/uploads/2025/03/Reliable-Locksmith-Essex-scaled.jpeg'
           src='https://big-c-locksmith.co.uk/wp-content/uploads/auto-locksmith-scaled.jpg'
-          alt={`${config.businessName || 'Locksmith'} - Professional Lock Repair in Cardiff`}
+          alt={`${config.businessName || 'Locksmith'} - Emergency Locksmith St Helens`}
           fill
           priority
           className='object-cover'
@@ -31,13 +31,13 @@ export function DemoHome() {
           <div className='container mx-auto max-w-7xl h-full flex flex-col justify-center px-4 md:px-6'>
             <div className='max-w-3xl mt-16 md:mt-0'>
               <div className='inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-white text-xs sm:text-sm font-medium mb-4 sm:mb-6 border border-white/20 backdrop-blur-sm'>
-                <span className='w-2 h-2 rounded-full bg-(--brand-orange) animate-pulse' />
+                <span className='w-2 h-2 rounded-full bg-brand-orange animate-pulse' />
                 Local & Trusted Experts
               </div>
               <h1 className='text-white text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1]'>
-                Auto Locksmith {config.location}
+                Locksmith {config.location}
                 <br />
-                <span className='text-(--brand-orange)'>
+                <span className='text-brand-orange'>
                   {config.businessName
                     ? config.businessName
                         .split(' ')
@@ -47,17 +47,17 @@ export function DemoHome() {
                 </span>
               </h1>
 
-              <p className='mt-6 sm:mt-8 text-gray-300 text-base sm:text-lg md:text-xl lg:w-3/4 border-l-2 border-(--brand-orange) pl-4 sm:pl-6 py-1 leading-relaxed shadow-sm'>
-                Locked out of your vehicle? Need advanced module coding or key remapping? We deliver rapid, damage-free auto entry and professional
-                programming across Cardiff. Available 24/7 for all your vehicle security needs.
+              <p className='mt-6 sm:mt-8 text-gray-300 text-base sm:text-lg md:text-xl lg:w-3/4 border-l-2 border-brand-orange pl-4 sm:pl-6 py-1 leading-relaxed shadow-sm'>
+                Locked out? Need a security upgrade? We deliver rapid, damage-free entry and professional lock fitting across St Helens and
+                surrounding areas. Available 24/7 for all your residential and commercial security needs.
               </p>
 
               <div className='mt-8 sm:mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4'>
                 <Link href={`tel:${config.phone || '07000 000000'}`}>
-                  <button className='cursor-pointer group inline-flex items-center justify-center gap-6 bg-(--brand-orange) hover:bg-white border border-transparent rounded-full pl-6 pr-2 py-2 text-base font-bold text-white hover:text-black transition-all ease-in-out duration-500 hover:shadow-xl shadow-(--brand-orange)/20'>
+                  <button className='cursor-pointer group inline-flex items-center justify-center gap-6 bg-brand-orange hover:bg-white border border-transparent rounded-full pl-6 pr-2 py-2 text-base font-bold text-white hover:text-black transition-all ease-in-out duration-500 hover:shadow-xl shadow-brand-orange/20'>
                     CALL US NOW
                     <span className='w-10 h-10 rounded-full bg-white group-hover:bg-black flex items-center justify-center shrink-0 transition-all ease-in-out duration-500'>
-                      <Phone className='h-4 w-4 text-(--brand-orange) group-hover:text-white group-hover:rotate-12 transition-all ease-in-out duration-500' />
+                      <Phone className='h-4 w-4 text-brand-orange group-hover:text-white group-hover:rotate-12 transition-all ease-in-out duration-500' />
                     </span>
                   </button>
                 </Link>
@@ -77,32 +77,32 @@ export function DemoHome() {
         <div className='flex flex-col lg:flex-row gap-12 lg:gap-20 items-stretch'>
           {/* Image Container */}
           <div className='flex-1 relative group'>
-            <div className='absolute -inset-4 bg-(--brand-orange)/10 rounded-3xl -z-10 group-hover:bg-(--brand-orange)/20 transition-all ease-in-out duration-500' />
+            <div className='absolute -inset-4 bg-brand-orange/10 rounded-3xl -z-10 group-hover:bg-brand-orange/20 transition-all ease-in-out duration-500' />
             <Image
               src='https://allprolocksmiths.com.au/wp-content/uploads/2023/12/A-Reliable-Auto-Locksmith.jpg'
-              alt='Professional Lock Repair and Installation in Cardiff'
+              alt='Emergency Locksmith St Helens'
               height={800}
               width={800}
               className='w-full h-full rounded-2xl shadow-2xl object-cover'
             />
             {/* Floating Trust Badge */}
             <div className='absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl border border-gray-100 hidden md:flex flex-col items-center justify-center min-w-[160px]'>
-              <Clock className='h-8 w-8 text-(--brand-orange) mb-2' />
+              <Clock className='h-8 w-8 text-brand-orange mb-2' />
               <p className='text-xs font-bold uppercase tracking-widest text-gray-400 mb-1'>Rapid Response</p>
-              <p className='text-(--brand-orange) font-black text-2xl'>30 MINS</p>
+              <p className='text-brand-orange font-black text-2xl'>30 MINS</p>
             </div>
           </div>
 
           {/* Content Container */}
-          <div className='flex-1 flex flex-col bg-white p-6 sm:p-8 lg:p-12 rounded-2xl shadow-sm border border-gray-100 justify-center group hover:border-(--brand-orange)/30 transition-all ease-in-out duration-500'>
+          <div className='flex-1 flex flex-col bg-white p-6 sm:p-8 lg:p-12 rounded-2xl shadow-sm border border-gray-100 justify-center group hover:border-brand-orange/30 transition-all ease-in-out duration-500'>
             <div className='space-y-6'>
               <div className='flex items-center gap-3'>
-                <span className='h-0.5 w-8 bg-(--brand-orange) rounded-full'></span>
-                <span className='text-(--brand-orange) font-bold tracking-widest uppercase text-sm'>Local Security Experts</span>
+                <span className='h-0.5 w-8 bg-brand-orange rounded-full'></span>
+                <span className='text-brand-orange font-bold tracking-widest uppercase text-sm'>Local Security Experts</span>
               </div>
 
               <h2 className='text-3xl sm:text-4xl lg:text-5xl text-gray-900 font-bold leading-tight tracking-tight'>
-                Emergency Auto Locksmith{' '}
+                Emergency Locksmith{' '}
                 <span className='text-transparent bg-clip-text bg-linear-to-r from-gray-900 to-gray-500'>in {config.location}</span>
               </h2>
 
@@ -132,7 +132,7 @@ export function DemoHome() {
                     key={feature}
                     className='flex items-center gap-3 text-[15px] font-semibold text-gray-800 bg-gray-50 p-3 rounded-lg border border-gray-100'
                   >
-                    <div className='min-w-2 min-h-2 rounded-full bg-(--brand-orange) shadow-sm' />
+                    <div className='min-w-2 min-h-2 rounded-full bg-brand-orange shadow-sm' />
                     {feature}
                   </li>
                 ))}
@@ -140,9 +140,9 @@ export function DemoHome() {
 
               <div className='pt-6'>
                 <Link href={`tel:${config.phone || ''}`}>
-                  <button className='cursor-pointer w-full sm:w-auto group inline-flex items-center justify-between sm:justify-start gap-4 bg-(--brand-orange) hover:bg-black text-white rounded-full pl-6 pr-1.5 py-1.5 text-sm font-bold tracking-wide transition-all ease-in-out duration-500 shadow-xl shadow-(--brand-orange)/20'>
+                  <button className='cursor-pointer w-full sm:w-auto group inline-flex items-center justify-between sm:justify-start gap-4 bg-brand-orange hover:bg-black text-white rounded-full pl-6 pr-1.5 py-1.5 text-sm font-bold tracking-wide transition-all ease-in-out duration-500 shadow-xl shadow-brand-orange/20'>
                     REQUEST ASSISTANCE
-                    <span className='w-10 h-10 rounded-full bg-white group-hover:bg-(--brand-orange) shrink-0 flex items-center justify-center transition-all ease-in-out duration-500'>
+                    <span className='w-10 h-10 rounded-full bg-white group-hover:bg-brand-orange shrink-0 flex items-center justify-center transition-all ease-in-out duration-500'>
                       <Phone className='h-4 w-4 text-gray-900 group-hover:text-white group-hover:rotate-12 transition-all ease-in-out duration-500' />
                     </span>
                   </button>
@@ -158,9 +158,9 @@ export function DemoHome() {
         <div className='max-w-7xl mx-auto px-4 md:px-6'>
           <div className='text-center mb-12 sm:mb-16'>
             <div className='flex justify-center items-center gap-3 mb-4'>
-              <span className='h-0.5 w-8 bg-(--brand-orange) rounded-full'></span>
-              <span className='text-(--brand-orange) font-bold tracking-widest uppercase text-sm'>How It Works</span>
-              <span className='h-0.5 w-8 bg-(--brand-orange) rounded-full'></span>
+              <span className='h-0.5 w-8 bg-brand-orange rounded-full'></span>
+              <span className='text-brand-orange font-bold tracking-widest uppercase text-sm'>How It Works</span>
+              <span className='h-0.5 w-8 bg-brand-orange rounded-full'></span>
             </div>
             <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 tracking-tight'>Our Simple 4-Step Process</h2>
             <p className='text-base sm:text-lg text-gray-500 max-w-2xl mx-auto'>
@@ -190,12 +190,12 @@ export function DemoHome() {
             ].map((step, idx) => (
               <div
                 key={idx}
-                className='bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 relative group hover:border-(--brand-orange)/50 hover:shadow-xl transition-all ease-in-out duration-500'
+                className='bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 relative group hover:border-brand-orange/50 hover:shadow-xl transition-all ease-in-out duration-500'
               >
-                <div className='text-6xl font-black text-gray-100 group-hover:text-(--brand-orange)/10 transition-all ease-in-out duration-500 absolute top-4 right-6'>
+                <div className='text-6xl font-black text-gray-100 group-hover:text-brand-orange/10 transition-all ease-in-out duration-500 absolute top-4 right-6'>
                   {step.num}
                 </div>
-                <div className='w-12 h-12 rounded-full bg-(--brand-orange)/10 flex items-center justify-center text-(--brand-orange) font-bold mb-6 group-hover:bg-(--brand-orange) group-hover:text-white transition-all ease-in-out duration-500 relative z-10'>
+                <div className='w-12 h-12 rounded-full bg-brand-orange/10 flex items-center justify-center text-brand-orange font-bold mb-6 group-hover:bg-brand-orange group-hover:text-white transition-all ease-in-out duration-500 relative z-10'>
                   {idx + 1}
                 </div>
                 <h3 className='text-xl font-bold text-gray-900 mb-3 relative z-10'>{step.title}</h3>
@@ -211,75 +211,37 @@ export function DemoHome() {
         <div className='flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12'>
           <div className='max-w-2xl'>
             <div className='flex items-center gap-3 mb-4'>
-              <span className='h-0.5 w-8 bg-(--brand-orange) rounded-full'></span>
-              <span className='text-(--brand-orange) font-bold tracking-widest uppercase text-sm'>What We Do</span>
+              <span className='h-0.5 w-8 bg-brand-orange rounded-full'></span>
+              <span className='text-brand-orange font-bold tracking-widest uppercase text-sm'>What We Do</span>
             </div>
             <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight'>
-              Professional Auto Locksmith Services in {config.location}
+              Professional Locksmith Services in {config.location}
             </h2>
           </div>
           <Link
             href={`/services`}
-            className='inline-flex items-center gap-2 font-bold text-gray-900 hover:text-(--brand-orange) transition-all ease-in-out duration-500 border-b-2 border-transparent hover:border-(--brand-orange) pb-1 group/link w-max text-sm sm:text-base'
+            className='inline-flex items-center gap-2 font-bold text-gray-900 hover:text-brand-orange transition-all ease-in-out duration-500 border-b-2 border-transparent hover:border-brand-orange pb-1 group/link w-max text-sm sm:text-base'
           >
             View All Services &rarr;
           </Link>
         </div>
 
-        <div className='grid md:grid-cols-3 gap-6'>
-          {/* Main big service card */}
-          <div className='md:col-span-2 bg-(--dark-bg) rounded-2xl p-6 sm:p-8 lg:p-12 text-white relative overflow-hidden group'>
-            <div className='absolute right-0 bottom-0 opacity-10 group-hover:scale-110 transition-all ease-in-out duration-500 pointer-events-none'>
-              <Key className='w-48 h-48 sm:w-64 sm:h-64 translate-x-12 translate-y-12 sm:translate-x-0 sm:translate-y-0' strokeWidth={1} />
-            </div>
-            <div className='relative z-10'>
-              <div className='inline-flex px-3 py-1 bg-white/10 text-white rounded-full text-xs sm:text-sm font-semibold mb-4 sm:mb-6 backdrop-blur-md'>
-                Priority Service
-              </div>
-              <h3 className='text-2xl sm:text-3xl lg:text-4xl font-bold mb-4'>Emergency 24/7 Auto Lockout</h3>
-              <p className='text-gray-400 text-base sm:text-lg max-w-md mb-8 sm:mb-10 leading-relaxed'>
-                Locked out of your vehicle? Our rapid-response team is on standby 24 hours a day across the region to provide non-destructive entry
-                and get you back behind the wheel safely.
-              </p>
-              <Link href={`tel:${config.phone || ''}`} className='block sm:inline-block'>
-                <button className='cursor-pointer w-full sm:w-auto bg-(--brand-orange) hover:bg-white hover:text-gray-900 text-white font-bold py-3 px-8 rounded-full transition-all ease-in-out duration-500'>
-                  Call For Emergency Help
-                </button>
-              </Link>
-            </div>
-          </div>
-
-          {/* Regular service cards */}
-          {[
-            {
-              id: 'module-coding',
-              tag: 'Programming',
-              title: 'Module Coding & Cloning',
-              desc: 'Advanced auto vehicle module coding, ECU programming, and unit cloning services.',
-              icon: Cpu,
-            },
-            {
-              id: 'remapping',
-              tag: 'Programming',
-              title: 'Vehicle Key Remapping',
-              desc: 'Professional key remapping and programming for improved vehicle security.',
-              icon: Gauge,
-            },
-          ].map((srv, idx) => (
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
+          {config.services?.map((s) => (
             <Link
-              key={idx}
-              href={`/services/${srv.id}`}
-              className='bg-white p-6 sm:p-8 rounded-2xl border border-gray-200 hover:border-(--brand-orange) hover:shadow-xl transition-all ease-in-out duration-500 group flex flex-col justify-between'
+              key={s.id}
+              href={`/services/${s.id}`}
+              className='bg-white p-6 sm:p-8 rounded-2xl border border-gray-200 hover:border-brand-orange hover:shadow-xl transition-all ease-in-out duration-500 group flex flex-col justify-between'
             >
               <div>
-                <div className='w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-(--brand-orange) mb-6 group-hover:scale-110 transition-all ease-in-out duration-500'>
-                  <srv.icon className='w-6 h-6' />
+                <div className='w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-brand-orange mb-6 group-hover:scale-110 transition-all ease-in-out duration-500'>
+                  <ShieldCheck className='w-6 h-6' />
                 </div>
                 <div className='inline-block px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs font-bold mb-3 uppercase tracking-wider'>
-                  {srv.tag}
+                  {s.tag}
                 </div>
-                <h3 className='text-xl font-bold text-gray-900 mb-3 group-hover:text-(--brand-orange) transition-colors'>{srv.title}</h3>
-                <p className='text-gray-500 leading-relaxed'>{srv.desc}</p>
+                <h3 className='text-xl font-bold text-gray-900 mb-3 group-hover:text-brand-orange transition-colors'>{s.title}</h3>
+                <p className='text-gray-500 leading-relaxed'>{s.summary}</p>
               </div>
             </Link>
           ))}
@@ -292,8 +254,8 @@ export function DemoHome() {
           <div className='grid lg:grid-cols-2 gap-12 lg:gap-16 items-center'>
             <div>
               <div className='flex items-center gap-3 mb-4'>
-                <span className='h-0.5 w-8 bg-(--brand-orange) rounded-full'></span>
-                <span className='text-(--brand-orange) font-bold tracking-widest uppercase text-sm'>
+                <span className='h-0.5 w-8 bg-brand-orange rounded-full'></span>
+                <span className='text-brand-orange font-bold tracking-widest uppercase text-sm'>
                   The {config.businessName?.split(' ')[0] || 'Company'} Difference
                 </span>
               </div>
@@ -313,7 +275,7 @@ export function DemoHome() {
                   { title: 'Rapid Response', desc: 'We aim to be at your door within 30-45 minutes for emergencies.' },
                 ].map((benefit, i) => (
                   <div key={i}>
-                    <div className='w-10 h-10 rounded-full bg-(--brand-orange)/10 flex items-center justify-center text-(--brand-orange) mb-4'>
+                    <div className='w-10 h-10 rounded-full bg-brand-orange/10 flex items-center justify-center text-brand-orange mb-4'>
                       <CheckCircle2 className='w-5 h-5' />
                     </div>
                     <h4 className='text-lg font-bold text-gray-900 mb-2'>{benefit.title}</h4>
@@ -324,10 +286,10 @@ export function DemoHome() {
             </div>
 
             <div className='relative'>
-              <div className='absolute -inset-4 bg-(--dark-bg) rounded-3xl -z-10 transform rotate-3' />
+              <div className='absolute -inset-4 bg-dark-bg rounded-3xl -z-10 transform rotate-3' />
               <Image
                 src='https://www.banham.co.uk/media/catalog/category/locksmith_scams_header.jpg'
-                alt='Trusted Locksmith in Cardiff'
+                alt='Locksmith St Helens'
                 height={600}
                 width={600}
                 className='w-full rounded-2xl shadow-xl'
@@ -352,16 +314,16 @@ export function DemoHome() {
 
       {/* ── 7. CTA / Contact Section ─────────────────────────────────── */}
       <section className='max-w-6xl mx-auto px-4 md:px-6 mb-8 md:mb-16'>
-        <div className='bg-(--brand-orange) rounded-3xl p-6 sm:p-8 md:p-12 lg:p-16 text-center relative overflow-hidden'>
+        <div className='bg-brand-orange rounded-3xl p-6 sm:p-8 md:p-12 lg:p-16 text-center relative overflow-hidden'>
           {/* Decorative elements */}
           <div className='absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -mr-20 -mt-20' />
           <div className='absolute bottom-0 left-0 w-48 h-48 bg-black/10 rounded-full blur-2xl -ml-10 -mb-10' />
 
           <div className='relative z-10 max-w-2xl mx-auto'>
             <ShieldCheck className='w-12 h-12 sm:w-16 sm:h-16 text-white mx-auto mb-4 sm:mb-6' />
-            <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6'>Ready To Secure Your Vehicle?</h2>
+            <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6'>Ready To Secure Your Property?</h2>
             <p className='text-white/90 text-lg sm:text-xl font-medium mb-8 sm:mb-10'>
-              Don&apos;t leave your vehicle security and performance to chance. Get a free, no-obligation quote or request immediate emergency
+              Don&apos;t leave your property's security and performance to chance. Get a free, no-obligation quote or request immediate emergency
               assistance today.
             </p>
 
@@ -371,7 +333,7 @@ export function DemoHome() {
                   Call {config.phone || 'Us Now'}
                 </button>
               </Link>
-              <button className='cursor-pointer w-full sm:w-auto bg-white text-(--brand-orange) hover:bg-gray-50 rounded-full px-8 py-4 text-lg font-bold transition-all ease-in-out duration-500 shadow-xl'>
+              <button className='cursor-pointer w-full sm:w-auto bg-white text-brand-orange hover:bg-gray-50 rounded-full px-8 py-4 text-lg font-bold transition-all ease-in-out duration-500 shadow-xl'>
                 Request A Call Back
               </button>
             </div>
@@ -389,7 +351,7 @@ export function ServicesIndex({ services }: { services?: ServicePage[] }) {
       <div className='relative rounded-2xl overflow-hidden mx-3 sm:mx-4 mt-3 sm:mt-4 h-[40vh] min-h-[350px] max-h-[450px] mb-12 sm:mb-16'>
         <Image
           src='https://big-c-locksmith.co.uk/wp-content/uploads/auto-locksmith-scaled.jpg'
-          alt='Our Comprehensive Locksmith Services in Cardiff'
+          alt='Emergency Locksmith St Helens Services'
           fill
           priority
           className='object-cover'
@@ -397,9 +359,9 @@ export function ServicesIndex({ services }: { services?: ServicePage[] }) {
         <div className='absolute inset-0 bg-black/75 z-10' />
         <div className='absolute inset-0 z-30 container mx-auto max-w-7xl flex flex-col justify-end pb-8 sm:pb-12 px-4 md:px-6'>
           <h1 className='text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight'>
-            Comprehensive Auto Locksmith Solutions in {config.location}
+            Comprehensive Locksmith Solutions in {config.location}
           </h1>
-          <p className='text-gray-300 mt-4 text-base sm:text-lg md:text-xl max-w-2xl border-l-2 border-(--brand-orange) pl-4'>
+          <p className='text-gray-300 mt-4 text-base sm:text-lg md:text-xl max-w-2xl border-l-2 border-brand-orange pl-4'>
             From emergency auto lockouts to module programming and key remapping, our certified specialists are equipped to handle any vehicle with
             speed and precision.
           </p>
@@ -411,13 +373,13 @@ export function ServicesIndex({ services }: { services?: ServicePage[] }) {
           {services?.map((s) => (
             <div
               key={s.id}
-              className='bg-white border border-gray-200 p-8 rounded-2xl hover:border-(--brand-orange) hover:shadow-2xl transition-all ease-in-out duration-500 group flex flex-col justify-between'
+              className='bg-white border border-gray-200 p-8 rounded-2xl hover:border-brand-orange hover:shadow-2xl transition-all ease-in-out duration-500 group flex flex-col justify-between'
             >
               <div>
-                <div className='w-12 h-12 rounded-xl bg-(--brand-orange)/10 flex items-center justify-center mb-6 group-hover:bg-(--brand-orange) transition-all ease-in-out duration-500'>
-                  <ShieldCheck className='w-6 h-6 text-(--brand-orange) group-hover:text-white transition-all ease-in-out duration-500' />
+                <div className='w-12 h-12 rounded-xl bg-brand-orange/10 flex items-center justify-center mb-6 group-hover:bg-brand-orange transition-all ease-in-out duration-500'>
+                  <ShieldCheck className='w-6 h-6 text-brand-orange group-hover:text-white transition-all ease-in-out duration-500' />
                 </div>
-                <h2 className='text-2xl font-bold mb-4 text-gray-900 group-hover:text-(--brand-orange) transition-colors'>{s.title}</h2>
+                <h2 className='text-2xl font-bold mb-4 text-gray-900 group-hover:text-brand-orange transition-colors'>{s.title}</h2>
                 <p className='text-gray-500 leading-relaxed mb-8'>{s.summary}</p>
               </div>
               <Link href={`/services/${s.id}`}>
@@ -443,21 +405,21 @@ export function ServicesIndex({ services }: { services?: ServicePage[] }) {
           </div>
           <div className='grid md:grid-cols-3 gap-12'>
             <div className='text-center'>
-              <div className='w-16 h-16 mx-auto bg-gray-50 rounded-full flex items-center justify-center mb-6 text-(--brand-orange)'>
+              <div className='w-16 h-16 mx-auto bg-gray-50 rounded-full flex items-center justify-center mb-6 text-brand-orange'>
                 <ShieldCheck className='w-8 h-8' />
               </div>
               <h3 className='text-xl font-bold text-gray-900 mb-3'>Certified Professionals</h3>
               <p className='text-gray-500'>All technicians are fully vetted, insured, and certified to install British Standard hardware.</p>
             </div>
             <div className='text-center'>
-              <div className='w-16 h-16 mx-auto bg-gray-50 rounded-full flex items-center justify-center mb-6 text-(--brand-orange)'>
+              <div className='w-16 h-16 mx-auto bg-gray-50 rounded-full flex items-center justify-center mb-6 text-brand-orange'>
                 <Clock className='w-8 h-8' />
               </div>
               <h3 className='text-xl font-bold text-gray-900 mb-3'>Rapid Response</h3>
               <p className='text-gray-500'>Local vans mean we can reach most emergency calls within 30-45 minutes of dispatch.</p>
             </div>
             <div className='text-center'>
-              <div className='w-16 h-16 mx-auto bg-gray-50 rounded-full flex items-center justify-center mb-6 text-(--brand-orange)'>
+              <div className='w-16 h-16 mx-auto bg-gray-50 rounded-full flex items-center justify-center mb-6 text-brand-orange'>
                 <svg className='w-8 h-8 fill-current' viewBox='0 0 24 24'>
                   <path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15l-5-5 1.41-1.41L11 14.17l7.59-7.59L20 8l-9 9z' />
                 </svg>
@@ -478,7 +440,7 @@ export function ServicesIndex({ services }: { services?: ServicePage[] }) {
             needs.
           </p>
           <Link href={`tel:${config.phone || ''}`}>
-            <button className='cursor-pointer bg-(--brand-orange) hover:bg-white text-white hover:text-black font-bold text-lg px-8 py-4 rounded-full transition-all ease-in-out duration-500 shadow-xl shadow-(--brand-orange)/20'>
+            <button className='cursor-pointer bg-brand-orange hover:bg-white text-white hover:text-black font-bold text-lg px-8 py-4 rounded-full transition-all ease-in-out duration-500 shadow-xl shadow-brand-orange/20'>
               Contact Subject Matter Experts
             </button>
           </Link>
@@ -506,7 +468,7 @@ export function ServiceDetail({ service }: { service?: ServicePage }) {
         <div className='absolute inset-0 z-30 container mx-auto max-w-7xl flex flex-col justify-end pb-8 sm:pb-12 px-4 md:px-6'>
           <Link
             href={`/services`}
-            className='inline-flex items-center text-(--brand-orange) font-medium text-sm hover:text-white transition-all ease-in-out duration-500 mb-6 bg-white/10 w-fit px-4 py-1.5 rounded-full'
+            className='inline-flex items-center text-brand-orange font-medium text-sm hover:text-white transition-all ease-in-out duration-500 mb-6 bg-white/10 w-fit px-4 py-1.5 rounded-full'
           >
             &larr; Back to Services
           </Link>
@@ -514,7 +476,7 @@ export function ServiceDetail({ service }: { service?: ServicePage }) {
             <h1 className='text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight'>
               {service.title} by {config.businessName}
             </h1>
-            <p className='text-gray-300 mt-4 text-base sm:text-lg md:text-xl border-l-2 border-(--brand-orange) pl-4'>{service.summary}</p>
+            <p className='text-gray-300 mt-4 text-base sm:text-lg md:text-xl border-l-2 border-brand-orange pl-4'>{service.summary}</p>
           </div>
         </div>
       </div>
@@ -524,7 +486,7 @@ export function ServiceDetail({ service }: { service?: ServicePage }) {
           {/* Main Content Column */}
           <div className='lg:col-span-2'>
             {/* HTML Body */}
-            <div className='prose prose-lg max-w-none text-gray-600 prose-headings:text-gray-900 prose-a:text-(--brand-orange) prose-strong:text-gray-900 prose-li:marker:text-[--brand-orange]'>
+            <div className='prose prose-lg max-w-none text-gray-600 prose-headings:text-gray-900 prose-a:text-brand-orange prose-strong:text-gray-900 prose-li:marker:text-[--brand-orange]'>
               {service.htmlContent ? (
                 <div dangerouslySetInnerHTML={{ __html: service.htmlContent }} />
               ) : (
@@ -595,7 +557,7 @@ export function ServiceDetail({ service }: { service?: ServicePage }) {
                   <div key={i} className='border border-gray-200 rounded-xl p-6 bg-white'>
                     <h4 className='text-lg font-bold text-gray-900 mb-3 flex items-center justify-between'>
                       {faq.q}
-                      <span className='text-(--brand-orange)'>+</span>
+                      <span className='text-brand-orange'>+</span>
                     </h4>
                     <p className='text-gray-600'>{faq.a}</p>
                   </div>
@@ -610,13 +572,13 @@ export function ServiceDetail({ service }: { service?: ServicePage }) {
               {/* Emergency Call Box */}
               <div className='bg-black p-8 rounded-2xl text-center shadow-2xl relative overflow-hidden'>
                 <div className='absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl -mr-10 -mt-10' />
-                <Siren className='w-12 h-12 text-(--brand-orange) mx-auto mb-4 relative z-10' />
+                <Siren className='w-12 h-12 text-brand-orange mx-auto mb-4 relative z-10' />
                 <h3 className='text-2xl font-bold mb-2 text-white relative z-10'>Require Assistance?</h3>
                 <p className='text-gray-400 mb-6 text-sm relative z-10'>
                   Our dispatch team is standing by 24/7 to assign an engineer to your location.
                 </p>
                 <Link href={`tel:${config.phone || '07000000000'}`}>
-                  <button className='w-full cursor-pointer rounded-full bg-(--brand-orange) hover:bg-white text-white hover:text-black font-bold h-14 text-lg transition-all ease-in-out duration-500 relative z-10 shadow-xl shadow-(--brand-orange)/20'>
+                  <button className='w-full cursor-pointer rounded-full bg-brand-orange hover:bg-white text-white hover:text-black font-bold h-14 text-lg transition-all ease-in-out duration-500 relative z-10 shadow-xl shadow-brand-orange/20'>
                     Call Now
                   </button>
                 </Link>
@@ -630,21 +592,21 @@ export function ServiceDetail({ service }: { service?: ServicePage }) {
                     <input
                       type='text'
                       placeholder='Full Name'
-                      className='w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-(--brand-orange) focus:ring-2 focus:ring-(--brand-orange)/20 outline-none transition-all'
+                      className='w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-brand-orange focus:ring-2 focus:ring-brand-orange/20 outline-none transition-all'
                     />
                   </div>
                   <div>
                     <input
                       type='tel'
                       placeholder='Phone Number'
-                      className='w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-(--brand-orange) focus:ring-2 focus:ring-(--brand-orange)/20 outline-none transition-all'
+                      className='w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-brand-orange focus:ring-2 focus:ring-brand-orange/20 outline-none transition-all'
                     />
                   </div>
                   <div>
                     <textarea
                       placeholder='How can we help?'
                       rows={3}
-                      className='w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-(--brand-orange) focus:ring-2 focus:ring-(--brand-orange)/20 outline-none transition-all resize-none'
+                      className='w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-brand-orange focus:ring-2 focus:ring-brand-orange/20 outline-none transition-all resize-none'
                     ></textarea>
                   </div>
                   <button
@@ -663,7 +625,7 @@ export function ServiceDetail({ service }: { service?: ServicePage }) {
                   {['No Call-Out Fee', 'Fixed Transparent Pricing', 'Vetted & Insured Staff', '12 Month Guarantee', 'Fast Local Response'].map(
                     (benefit, i) => (
                       <li key={i} className='flex items-center text-sm font-medium text-gray-600'>
-                        <CheckCircle className='w-4 h-4 text-(--brand-orange) mr-3 flex-shrink-0' />
+                        <CheckCircle className='w-4 h-4 text-brand-orange mr-3 flex-shrink-0' />
                         {benefit}
                       </li>
                     ),
@@ -695,7 +657,7 @@ export function BlogIndex({ posts }: { posts?: BlogPostType[] }) {
           <h1 className='text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight'>
             Security Advice & News for {config.location}
           </h1>
-          <p className='text-gray-300 mt-4 text-base sm:text-lg md:text-xl max-w-2xl border-l-2 border-(--brand-orange) pl-4'>
+          <p className='text-gray-300 mt-4 text-base sm:text-lg md:text-xl max-w-2xl border-l-2 border-brand-orange pl-4'>
             Expert tips, updates, and guides to keep your property safe.
           </p>
         </div>
@@ -707,10 +669,10 @@ export function BlogIndex({ posts }: { posts?: BlogPostType[] }) {
             <Link
               href={`/blog/${p.id}`}
               key={p.id}
-              className='group bg-white rounded-2xl p-8 border border-gray-200 hover:border-(--brand-orange) transition-all ease-in-out duration-500 hover:shadow-lg'
+              className='group bg-white rounded-2xl p-8 border border-gray-200 hover:border-brand-orange transition-all ease-in-out duration-500 hover:shadow-lg'
             >
               <span className='inline-block text-xs font-bold uppercase tracking-wider text-gray-400 mb-3'>{p.publishedAt}</span>
-              <h2 className='text-2xl font-bold text-gray-900 group-hover:text-(--brand-orange) transition-all ease-in-out duration-500 mb-3'>
+              <h2 className='text-2xl font-bold text-gray-900 group-hover:text-brand-orange transition-all ease-in-out duration-500 mb-3'>
                 {p.title}
               </h2>
               <p className='text-gray-500 leading-relaxed line-clamp-2'>{p.excerpt}</p>
@@ -739,20 +701,17 @@ export function BlogPost({ post }: { post?: BlogPostType }) {
         <div className='absolute inset-0 bg-black/75 z-10' />
         <div className='absolute inset-0 z-30 container mx-auto max-w-7xl flex flex-col justify-end pb-8 sm:pb-12 px-4 md:px-6'>
           <h1 className='text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight'>{post.title}</h1>
-          <span className='inline-block text-xs sm:text-sm font-bold uppercase tracking-wider text-(--brand-orange) mt-4 border-l-2 border-(--brand-orange) pl-4'>
+          <span className='inline-block text-xs sm:text-sm font-bold uppercase tracking-wider text-brand-orange mt-4 border-l-2 border-brand-orange pl-4'>
             {post.publishedAt}
           </span>
         </div>
       </div>
 
       <Container className='max-w-3xl mb-24'>
-        <Link
-          href={`/blog`}
-          className='text-gray-500 font-medium text-sm hover:text-(--brand-orange) transition-all ease-in-out duration-500 mb-8 block'
-        >
+        <Link href={`/blog`} className='text-gray-500 font-medium text-sm hover:text-brand-orange transition-all ease-in-out duration-500 mb-8 block'>
           &larr; Back to Articles
         </Link>
-        <article className='prose prose-lg max-w-none text-gray-600 prose-headings:text-gray-900 prose-a:text-(--brand-orange)'>
+        <article className='prose prose-lg max-w-none text-gray-600 prose-headings:text-gray-900 prose-a:text-brand-orange'>
           {post.htmlContent ? (
             <div dangerouslySetInnerHTML={{ __html: post.htmlContent }} />
           ) : (

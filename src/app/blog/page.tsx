@@ -4,8 +4,8 @@ import { Metadata } from 'next';
 import config from '@/data/config.json';
 
 export const metadata: Metadata = {
-  title: `Vehicle Security Advice & News | ${config.location} Auto Locksmith Blog`,
-  description: `Expert tips, vehicle security advice, and auto locksmith news from the team at ${config.businessName} in ${config.location}.`,
+  title: `Security Advice & News | ${config.location} Locksmith Blog`,
+  description: `Expert tips, property security advice, and locksmith news from the team at ${config.businessName} in ${config.location}.`,
 };
 
 export default function BlogPage() {

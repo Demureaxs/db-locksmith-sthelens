@@ -13,32 +13,32 @@ export function BaseShell({ children }: BaseShellProps) {
   return (
     <div className='flex min-h-screen bg-gray-50 flex-col relative'>
       {/* ── Scrolling Promo Banner ─────────────────────────────────── */}
-      <div className='bg-(--dark-bg) text-white py-2.5 overflow-hidden'>
+      <div className='bg-dark-bg text-white py-2.5 overflow-hidden'>
         <div className='flex animate-marquee whitespace-nowrap'>
           {[...Array(2)].map((_, i) => (
             <div key={i} className='flex items-center gap-8 mx-4'>
               <span className='text-sm font-medium tracking-wide'>
                 24/7 Emergency Locksmith —{' '}
-                <Link href={`tel:${phone}`} className='text-(--brand-orange) font-semibold hover:underline'>
+                <Link href={`tel:${phone}`} className='text-brand-orange font-semibold hover:underline'>
                   Call Now!
                 </Link>
               </span>
-              <span className='text-(--brand-orange)'>✦</span>
+              <span className='text-brand-orange'>✦</span>
               <span className='text-sm font-medium tracking-wide'>
                 Free Security Assessment —{' '}
-                <Link href='/services' className='text-(--brand-orange) font-semibold hover:underline'>
+                <Link href='/services' className='text-brand-orange font-semibold hover:underline'>
                   Book Today!
                 </Link>
               </span>
-              <span className='text-(--brand-orange)'>✦</span>
+              <span className='text-brand-orange'>✦</span>
               <span className='text-sm font-medium tracking-wide'>
-                Lock Replacement from <span className='text-(--brand-orange) font-bold'>£100!</span>
+                Lock Replacement from <span className='text-brand-orange font-bold'>£100!</span>
               </span>
-              <span className='text-(--brand-orange)'>✦</span>
+              <span className='text-brand-orange'>✦</span>
               <span className='text-sm font-medium tracking-wide'>
-                New Customer Discount — <span className='text-(--brand-orange) font-bold'>20% Off</span>
+                New Customer Discount — <span className='text-brand-orange font-bold'>20% Off</span>
               </span>
-              <span className='text-(--brand-orange)'>✦</span>
+              <span className='text-brand-orange'>✦</span>
             </div>
           ))}
         </div>
@@ -53,11 +53,11 @@ export function BaseShell({ children }: BaseShellProps) {
               {/* <div className='absolute top-9 left-0 w-[142px] h-16 bg-white rounded-2xl -z-10 shadow-lg'></div> */}
               <Link href='/' className='flex items-center p-1.5 rounded-xl shadow-lg z-10 transition-all ease-in-out duration-500 hover:scale-[1.02]'>
                 <Image
-                  src='/ejml-logo.png'
-                  alt={`${businessName} - Expert Locksmiths in Cardiff`}
+                  src='/db-locksmiths-logo.png'
+                  alt={`${businessName} - Emergency Locksmith St Helens`}
                   width={400}
                   height={400}
-                  className='h-40 sm:-ml-6 w-auto object-cover'
+                  className='h-35 sm:h-60 sm:-ml-6 w-auto object-cover'
                   priority
                 />
               </Link>
@@ -65,13 +65,13 @@ export function BaseShell({ children }: BaseShellProps) {
 
             {/* Navigation */}
             <nav className='hidden md:flex items-center gap-8 text-sm font-bold tracking-wide'>
-              <Link href='/' className='text-white hover:text-(--brand-orange) transition-all ease-in-out duration-500 drop-shadow-md'>
+              <Link href='/' className='text-white hover:text-brand-orange transition-all ease-in-out duration-500 drop-shadow-md'>
                 Home
               </Link>
-              <Link href='/services' className='text-white hover:text-(--brand-orange) transition-all ease-in-out duration-500 drop-shadow-md'>
+              <Link href='/services' className='text-white hover:text-brand-orange transition-all ease-in-out duration-500 drop-shadow-md'>
                 Services
               </Link>
-              <Link href='/blog' className='text-white hover:text-(--brand-orange) transition-all ease-in-out duration-500 drop-shadow-md'>
+              <Link href='/blog' className='text-white hover:text-brand-orange transition-all ease-in-out duration-500 drop-shadow-md'>
                 Blog
               </Link>
             </nav>
@@ -82,7 +82,7 @@ export function BaseShell({ children }: BaseShellProps) {
             <Link href={`tel:${phone}`}>
               <button className='cursor-pointer group inline-flex items-center gap-3 bg-white border border-transparent hover:border-white rounded-full pl-5 pr-1.5 py-1.5 text-sm font-bold text-gray-900 transition-all ease-in-out duration-500 shadow-xl'>
                 CONTACT US
-                <span className='w-8 h-8 rounded-full bg-(--brand-orange) group-hover:bg-black flex items-center justify-center transition-all ease-in-out duration-500'>
+                <span className='w-8 h-8 rounded-full bg-brand-orange group-hover:bg-black flex items-center justify-center transition-all ease-in-out duration-500'>
                   <Phone className='h-4 w-4 text-white group-hover:rotate-12 transition-all ease-in-out duration-500' />
                 </span>
               </button>
@@ -95,7 +95,7 @@ export function BaseShell({ children }: BaseShellProps) {
       <main className='flex-1 flex flex-col pt-0'>{children}</main>
 
       {/* ── Footer ─────────────────────────────────────────────────── */}
-      <footer className='bg-(--dark-bg) text-white mx-4 mb-4 rounded-3xl overflow-hidden mt-6'>
+      <footer className='bg-dark-bg text-white mx-4 mb-4 rounded-3xl overflow-hidden mt-6'>
         {/* Top CTA */}
         <div className='container mx-auto max-w-7xl px-4 md:px-10 md:py-20'>
           <div className='grid md:grid-cols-2 gap-16 items-start'>
@@ -109,11 +109,11 @@ export function BaseShell({ children }: BaseShellProps) {
                     className='relative flex items-center p-1.5 rounded-xl shadow-lg z-20 transition-all ease-in-out duration-500 hover:scale-[1.02]'
                   >
                     <Image
-                      src='/ejml-logo.png'
-                      alt={`${businessName} in Cardiff`}
+                      src='/db-locksmiths-logo.png'
+                      alt={`Locksmith St Helens - ${businessName}`}
                       width={400}
                       height={400}
-                      className='h-40 -ml-8 w-auto object-cover'
+                      className='h-60 -ml-8 w-auto object-cover'
                       priority
                     />
                   </Link>
@@ -128,7 +128,7 @@ export function BaseShell({ children }: BaseShellProps) {
               {address && (
                 <div className='flex items-start gap-4 mt-10'>
                   <div className='w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0 border border-gray-800'>
-                    <MapPin className='w-4 h-4 text-(--brand-orange)' />
+                    <MapPin className='w-4 h-4 text-brand-orange' />
                   </div>
                   <div>
                     <h5 className='text-white font-bold mb-2 tracking-wide'>Service Area</h5>
@@ -163,10 +163,10 @@ export function BaseShell({ children }: BaseShellProps) {
                 friendly team is ready to assist.
               </p>
               <Link href={`tel:${phone}`}>
-                <button className='cursor-pointer group inline-flex items-center gap-4 bg-(--brand-orange) text-white rounded-full px-8 py-4 text-sm font-bold tracking-wider hover:bg-[#e55020] transition-all ease-in-out duration-500 shadow-lg shadow-(--brand-orange)/20'>
+                <button className='cursor-pointer group inline-flex items-center gap-4 bg-brand-orange text-white rounded-full px-8 py-4 text-sm font-bold tracking-wider hover:bg-[#e55020] transition-all ease-in-out duration-500 shadow-lg shadow-brand-orange/20'>
                   GET STARTED NOW
                   <span className='w-8 h-8 rounded-full bg-white/20 group-hover:bg-white flex items-center justify-center transition-all ease-in-out duration-500'>
-                    <ArrowRight className='w-4 h-4 text-white group-hover:text-(--brand-orange) -rotate-45 group-hover:rotate-0 transition-all ease-in-out duration-500' />
+                    <ArrowRight className='w-4 h-4 text-white group-hover:text-brand-orange -rotate-45 group-hover:rotate-0 transition-all ease-in-out duration-500' />
                   </span>
                 </button>
               </Link>

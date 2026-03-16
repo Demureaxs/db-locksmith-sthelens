@@ -4,8 +4,8 @@ import { Metadata } from 'next';
 import config from '@/data/config.json';
 
 export const metadata: Metadata = {
-  title: `Our Auto Locksmith Services | Vehicle Solutions in ${config.location}`,
-  description: `Explore our comprehensive range of auto locksmith services in ${config.location}, including module coding, key remapping, and emergency vehicle entry.`,
+  title: `Our Locksmith Services | Property Security in ${config.location}`,
+  description: `Explore our comprehensive range of locksmith services in ${config.location}, including emergency entry, lock replacement, and UPVC door repairs.`,
 };
 
 export default function ServicesPage() {

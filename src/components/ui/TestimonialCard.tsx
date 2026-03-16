@@ -31,7 +31,7 @@ export function TestimonialCard({ review }: TestimonialCardProps) {
         {isLong && (
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className='text-(--brand-orange) font-medium text-sm hover:underline focus:outline-none mb-6 cursor-pointer text-left inline-block'
+            className='text-brand-orange font-medium text-sm hover:underline focus:outline-none mb-6 cursor-pointer text-left inline-block'
           >
             {isExpanded ? 'Read less' : 'Read more'}
           </button>
