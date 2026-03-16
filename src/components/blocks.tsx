@@ -16,7 +16,7 @@ export function DemoHome() {
         {/* Background Image */}
         <Image
           // src='https://www.lockout247.co.uk/wp-content/uploads/2025/03/Reliable-Locksmith-Essex-scaled.jpeg'
-          src='https://big-c-locksmith.co.uk/wp-content/uploads/auto-locksmith-scaled.jpg'
+          src='https://www.lockout247.co.uk/wp-content/uploads/2025/03/Reliable-Locksmith-Essex-scaled.jpeg'
           alt={`${config.businessName || 'Locksmith'} - Emergency Locksmith St Helens`}
           fill
           priority
@@ -79,7 +79,7 @@ export function DemoHome() {
           <div className='flex-1 relative group'>
             <div className='absolute -inset-4 bg-brand-orange/10 rounded-3xl -z-10 group-hover:bg-brand-orange/20 transition-all ease-in-out duration-500' />
             <Image
-              src='https://allprolocksmiths.com.au/wp-content/uploads/2023/12/A-Reliable-Auto-Locksmith.jpg'
+              src='https://www.banham.co.uk/media/wysiwyg/lock-repair-body.png'
               alt='Emergency Locksmith St Helens'
               height={800}
               width={800}
@@ -473,9 +473,7 @@ export function ServiceDetail({ service }: { service?: ServicePage }) {
             &larr; Back to Services
           </Link>
           <div className='max-w-3xl'>
-            <h1 className='text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight'>
-              {service.title} by {config.businessName}
-            </h1>
+            <h1 className='text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight'>{service.title} in St Helens</h1>
             <p className='text-gray-300 mt-4 text-base sm:text-lg md:text-xl border-l-2 border-brand-orange pl-4'>{service.summary}</p>
           </div>
         </div>
